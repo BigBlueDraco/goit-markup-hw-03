@@ -168,6 +168,7 @@ body {
 .button {
   background: var(--bg-bright-color);
   color: var(--text-secondery-color);
+
   font-weight: 500;
   font-family: inherit;
   font-size: 16px;
@@ -175,6 +176,11 @@ body {
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
+
+  border-color: transparent;
+  border-radius: 4px;
+
+  padding: 6px 20px;
 }
 .button:hover,
 .button:focus {
@@ -195,8 +201,8 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  border-color: transparent;
   border-radius: 8px;
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -320,4 +326,28 @@ body {
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.filter-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-item + .filter-item {
+  margin-left: 8px;
+}
+.catalog-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-list:nth-child(2n + 2) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.catalog-item {
+  margin-top: 30px;
 }
