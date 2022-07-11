@@ -190,10 +190,15 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 
+  border-color: transparent;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   text-align: center;
+
   margin: 0 auto;
+  margin-top: 45px;
+  padding: 15px 32px;
 }
 
 /* index.html style */
@@ -210,6 +215,8 @@ body {
 /* Section one Buisnes solution */
 .buisnes-solution {
   background: var(--bg-primary-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .buisnes-solution-title {
   color: var(--white);
@@ -218,6 +225,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  max-width: 600px;
+  margin: 0 auto;
 }
 .why-us-title {
   color: var(--text-secondery-color);
