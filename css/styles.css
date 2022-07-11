@@ -350,4 +350,17 @@ body {
 }
 .catalog-item {
   margin-top: 30px;
+  border: 1px solid #eee;
+}
+
+.team-item {
+  background-color: var(--bg-bright-color);
+}
+.team-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.catalog-content {
+  padding: 20px 24px;
 }
