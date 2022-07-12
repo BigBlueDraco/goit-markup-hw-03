@@ -213,7 +213,6 @@ img {
   text-align: center;
 
   margin: 0 auto;
-  margin-top: 30px;
   padding: 15px 32px;
 }
 
@@ -233,7 +232,8 @@ img {
 /* Section one Buisnes solution */
 .buisnes-solution {
   background: var(--bg-primary-color);
-  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .buisnes-solution-title {
   color: var(--white);
@@ -244,7 +244,7 @@ img {
   text-transform: uppercase;
 
   margin: 0 auto;
-  padding-top: 200px;
+  margin-bottom: 30px;
 }
 .why-us {
   padding-top: 94px;
