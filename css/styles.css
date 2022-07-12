@@ -50,8 +50,9 @@ body {
 }
 
 .header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  height: 80px;
 }
 .no-margin {
   margin: 0;
@@ -151,6 +152,8 @@ body {
   font-family: 'Raleway', sans-serif;
 
   margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .black-logo {
   color: var(--text-secondery-color);
