@@ -53,9 +53,6 @@ img {
   display: block;
 }
 
-.header {
-  height: 80px;
-}
 .no-margin {
   margin: 0;
 }
@@ -154,8 +151,8 @@ img {
   font-family: 'Raleway', sans-serif;
 
   margin-right: 50px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .black-logo {
   color: var(--text-secondery-color);
@@ -245,6 +242,8 @@ img {
 
   margin: 0 auto;
   margin-bottom: 30px;
+
+  width: 700px;
 }
 .why-us {
   padding-top: 94px;
