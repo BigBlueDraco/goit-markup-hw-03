@@ -49,9 +49,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+}
+
 .header {
-  /* padding-top: 30px;
-  padding-bottom: 30px; */
   height: 80px;
 }
 .no-margin {
@@ -211,7 +213,7 @@ body {
   text-align: center;
 
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 30px;
   padding: 15px 32px;
 }
 
@@ -220,21 +222,18 @@ body {
 /*sections background */
 .bg-bright {
   background: var(--bg-bright-color);
-  padding-top: 95px;
   padding-bottom: 95px;
 }
 
 .bg-dim {
   background: var(--bg-dim-color);
-  padding-top: 95px;
   padding-bottom: 95px;
 }
 
 /* Section one Buisnes solution */
 .buisnes-solution {
   background: var(--bg-primary-color);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  min-height: 600px;
 }
 .buisnes-solution-title {
   color: var(--white);
@@ -244,11 +243,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  max-width: 600px;
   margin: 0 auto;
+  padding-top: 200px;
 }
 .why-us {
-  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .why-us-title {
   color: var(--text-secondery-color);
@@ -256,16 +255,25 @@ body {
   text-transform: uppercase;
   text-align: left;
 }
+
+.team {
+  padding-top: 95px;
+}
 .team-disc {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
+
 .team-title {
   color: var(--text-secondery-color);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 30px;
 }
 
 /* portfolio.html */
@@ -353,7 +361,6 @@ body {
 }
 .catalog-item {
   margin-top: 30px;
-  border: 1px solid #eee;
 }
 
 .team-item {
@@ -366,4 +373,5 @@ body {
 }
 .catalog-content {
   padding: 20px 24px;
+  border: 1px solid #eee;
 }
