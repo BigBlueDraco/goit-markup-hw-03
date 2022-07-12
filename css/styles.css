@@ -194,7 +194,7 @@ img {
 }
 .accente-button {
   background: var(--accente-color);
-  color: var(--bg-bright-color);
+  color: var(--bg-dim-color);
 }
 .accente-button:focus,
 .accente-button:hover {
