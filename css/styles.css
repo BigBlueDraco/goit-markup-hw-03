@@ -278,13 +278,17 @@ img {
 
 /* portfolio.html */
 
+.catalog {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 .catalog-link {
   color: var(--bg-primary-color);
 }
 .catalog-link:focus,
 .catalog-link:hover {
   color: var(--bg-primary-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .curent-filter {
   background: var(--accente-color);
@@ -379,4 +383,8 @@ li.feature-item {
 .catalog-content {
   padding: 20px 24px;
   border: 1px solid #eee;
+}
+
+.header-border {
+  border-bottom: solid 1px #e5e5e5;
 }
