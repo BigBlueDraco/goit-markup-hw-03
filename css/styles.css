@@ -49,6 +49,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 img {
   display: block;
 }
@@ -151,8 +156,6 @@ img {
   font-family: 'Raleway', sans-serif;
 
   margin-right: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 .black-logo {
   color: var(--text-secondery-color);
