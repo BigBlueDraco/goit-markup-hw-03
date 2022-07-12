@@ -171,7 +171,7 @@ img {
 
 /* Buttons */
 .button {
-  background: var(--bg-bright-color);
+  background-color: var(--bg-dim-color);
   color: var(--text-secondery-color);
 
   font-weight: 500;
