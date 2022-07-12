@@ -293,11 +293,14 @@ img {
 .catalog-type {
   font-size: 16px;
   line-height: 1.88;
+  margin: 0;
 }
 .catalog-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 .container {
