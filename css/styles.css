@@ -321,10 +321,12 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-
-.feature-item + .feature-item {
-  margin-left: 30px;
+li.feature-item {
+  width: 270px;
 }
+/* .feature-item + .feature-item {
+  margin-left: 30px;
+} */
 
 .feature-list {
   display: flex;
