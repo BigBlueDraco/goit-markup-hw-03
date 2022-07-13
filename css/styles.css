@@ -93,6 +93,7 @@ img {
   text-align: center;
 
   margin-bottom: 50px;
+  padding-bottom: 95px;
 }
 
 /* Links */
@@ -226,7 +227,6 @@ img {
 /*sections background */
 .bg-bright {
   background: var(--bg-bright-color);
-  padding-bottom: 95px;
 }
 
 .bg-dim {
