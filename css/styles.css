@@ -320,7 +320,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+section {
+  padding-bottom: 94px;
+}
 .nav-flex {
   display: flex;
   justify-self: flex-start;
